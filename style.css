@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    height: 100vh;
+}
+
+/* Table-1 */
+
+.table-1 {
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid #ffc107;
+    border-collapse: collapse;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.table-1 th {
+    padding: 1rem;
+    background-color: #ffc107;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.table-1 th:nth-child(even) {
+    background-color: #E6AE31;
+}
+
+.table-1 td {
+    padding: 1rem;
+    border: 1px solid #ffc107;
+    background-color: #382c6e;
+    color: #fff;
+    font-size: .875rem;
+}
+
+/* Table-2 */
+
+.table-2 {
+    max-width: 600px;
+    width: 100%;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.table-2 th {
+    padding: 0.25rem;
+    border: 2px solid #000;
+    text-align: left;
+    font-weight: 500;
+}
+
+.table-2 td {
+    padding: 0.25rem;
+    border: 2px solid #000;
+}
+
+.cell {
+    color: #fff;
+}
+
+.orange {
+    background-color: #ffa502;
+}
+
+.blue {
+    background-color: #504FFF;
+}
+
+.green {
+    background-color: #14C03B;
+}
+
+/* Table-3 */
+
+.table-3 {
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.table-3 th {
+    padding: 0.5rem;
+    background-color: #86016F;
+    text-align: left;
+    font-weight: 600;
+}
+
+.table-3 td {
+    padding: 0.5rem;
+    font-size: .875rem;
+}
+
+.table-3 tr {
+    background-color: #F37ED0;
+}
+
+.table-3 tr:nth-child(even) {
+    background-color: #AF5594;
+}
